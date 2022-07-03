@@ -1,0 +1,366 @@
+//custom links to connect externel link
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;800&display=swap');
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+
+//for bootstrap override variables
+$navbar-dark-color: green;
+$body-bg: white;
+//for custom css
+*{
+    font-family: 'Archivo', sans-serif;
+}
+.custom-btn{
+    font-weight: bold;
+    border: none;
+    background-color: white;
+}
+textarea{
+    resize: none;
+}
+.form-background{
+    background-color: #e9e9e9 !important;
+}
+
+input{
+    padding: 1rem !important;
+    background-color: rgb(243 243 243) !important;
+    border: none !important;
+}
+textarea{
+    background-color: rgb(243 243 243) !important;
+    border: none !important;
+
+}
+::placeholder{
+    opacity: 1 !important;
+    
+}
+button{
+    padding: 1rem !important;
+}
+.navbar-toggler{
+    padding: 5px !important;
+    padding-bottom:0 !important;
+    padding-top: 10px !important;
+    background-color: rgb(241, 236, 236);
+    border: none !important;
+    opacity: 0.5 !important;
+   
+}
+.navbar-toggler:focus {
+    border: none !important;
+    box-shadow: none !important;
+    background-color: rgb(195, 194, 194);
+    opacity: 1 !important;
+    span{
+        color: white;
+    }
+}
+.navbar-nav{
+    padding: 13px;
+}
+li{
+    font-size: 19.5px;
+}
+
+//comment css
+@media only screen and (max-width:768px) {
+    .comment-container{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 30px;
+    }
+    .comment-footer{
+        padding-left: 50px;
+    }
+    .center{
+        justify-content: center !important;
+    }
+    .none{
+        display: none !important;
+    }
+    .border{
+        margin-top: 40px;
+    }
+    .mt-4{
+        margin-top: 0 !important;
+    }
+    .mt{
+        margin-top: 3rem;
+    }
+    .navbar{
+        padding: 0 35px;
+        padding-top: 20px;
+    }
+    .footer-sm{
+        justify-content: start !important;
+        margin-left: 3rem !important;
+    }
+    .block{
+        display: block !important;
+        width: 100%;
+    }
+    .center-link{
+        margin: 0 auto !important;
+    } 
+    .menu-p{
+        padding-bottom: 10px !important;
+    }
+}
+
+//campground css
+.img-border{
+    border-radius: 53px;
+}
+.mount-heading{
+    font-size: x-large;
+    font-weight: bold;
+}
+.btn-campground{
+    margin-right: 3rem !important;
+}
+.camp-btn{
+    padding: 10px 15px 10px 15px !important;
+}
+.m-0{
+    margin: 0 !important;
+    font-size: large !important;
+}
+@media only screen and (max-width: 576px) {
+    footer{
+        padding: 0 55px !important;
+    }
+}
+@media only screen and (max-width: 992px){
+    .center{
+        justify-content: center !important;
+    }
+    .border{
+        margin-top: 40px;
+    }
+    .mt-4{
+        margin-top: 0 !important;
+    }
+    .mt{
+        margin-top: 3rem;
+    }
+    .center-link{
+        margin: 0 auto !important;
+    }
+    .menu-p{
+        padding-bottom: 10px !important;
+    }
+}
+
+//landing css
+.pc-5{
+    padding: 200px !important;
+    padding-top: 50px !important;
+}
+.margin-top{
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+.fa-solid{
+    color: #008b2e !important;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.div-margin{
+    margin: 10px 0;
+}
+.landing-btn{
+    margin: 10px 0 30px 0;
+}
+.card-text{
+    font-weight: 500;
+}
+@media only screen and (max-width: 576px) {
+   .hero-sm{
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 42vh;
+   }
+   .sm-logo{
+    padding: 40px;
+   }
+   .margin-top{
+        margin: 0;
+   }
+}
+@media only screen and (max-width:768px) {
+    .sm-logo {
+        padding: 40px;
+    }
+    .hero-sm{
+        object-fit: cover;
+        display: block;
+        width: 100%;
+        height: 50vh;
+    }
+    .margin-top{
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 992px){
+    .sm-logo{
+        padding-top: 50px;
+        padding-left: 50px;
+    }
+}
+
+//search page
+.page-margin{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.box{
+    border: 1px solid rgb(171, 171, 171);
+    border-radius: 5px;
+    width: 50%;
+    display: inline-block;
+
+}
+.fa{
+    padding-left: 15px;
+    padding-right: 10px;
+    opacity: 65%;
+}
+.search{
+    border: none;
+    outline: none;
+    width: 70%;
+    height: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.page-btn{
+    padding: 14px !important;
+    border-radius: 5px;
+    border: none !important;
+    margin-bottom: 1px;
+    margin-left: 10px;
+}
+.page-align{
+    margin: 8px;
+    margin-left: 0;
+}
+.search-btn{
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    display: block;
+}
+
+//search responsive
+@media only screen and (max-width: 768px) {
+    .footer-margin{
+        margin-bottom: 30px !important;
+    }
+    .d-s-none{
+        display: none;
+    }
+}
+.navbar-toggler:focus{
+    background-color: white !important;
+}
+.card{
+    margin-bottom: 3rem !important;
+}
+
+//sign-in
+.inline-bl{
+    display: inline-block;
+}
+.color-b{
+    color: rgb(158, 156, 156) !important;
+    font-size: medium;
+    width: 10px;
+}
+.top-m{
+    margin-top: 3px;
+}
+.c-border{
+    border: 1px solid grey !important;
+    border-radius: 5px;
+    background-color: rgb(244, 241, 241) !important;
+}
+.user-margin{
+    margin-top: -360px;
+}
+.profile-margin{
+    margin-left: -110px;
+    margin-right: 10px;
+}
+@media only screen and (max-width: 768px) {
+    .header-sm{
+        margin-top: 30px;
+    }
+    .d-s-none{
+        margin: 0;
+    }
+    .d-s-block{
+        display: block !important;
+    }
+    .s-center{
+        justify-content: center;
+    }
+    .full-width{
+        width: 100% !important;
+    }
+    .btn-margin{
+        margin-top: 20px !important;
+    }
+    .align-items-s-start{
+        align-items: start !important;
+    }
+    .height-30{
+        height: 30px !important;
+    }
+    .user-margin{
+        margin-top: 200px !important;
+    }
+    .height-p{
+        margin-top: 80px;
+    }
+    .justify-content-s-start{
+        justify-content: start !important;
+        margin-left: 115px !important;
+    }
+    .mt-s-5{
+        margin-top: 80px;
+    }
+
+}
+@media only screen and (max-width: 992px){
+    .full-width{
+        width: 100% !important;
+    }
+    .btn-margin{
+        margin-top: 20px !important;
+    }
+    .height-30{
+        height: 0px !important;
+    }
+    .paragraph-margin{
+        margin-top: 250px !important;
+        width: 100% !important;
+    }
+    br{
+        display: none;
+    }
+    .user-margin-md{
+        margin-top: 200px !important;
+        margin-left: 115px !important;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .lg-font-size{
+        font-size: xx-large;
+    }
+}
